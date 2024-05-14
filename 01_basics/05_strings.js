@@ -20,7 +20,7 @@ const newString = gameName.substring(2,6)
 const anotherString = gameName.slice(-8, 4)
 // console.log(anotherString);
 
-const newStringOne = "   satyajit   "
+const newStringOne = "   satyajit   "  
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
