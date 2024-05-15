@@ -14,8 +14,7 @@ const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++++++++++++++++++++  Maths +++++++++++++++++++++++++++++++++++++
-
-// console.log(Math);
+0// console.log(Math);
 // console.log(Math.abs(4));
 // console.log(Math.round(4.3));
 // console.log(Math.ceil(4.2));
