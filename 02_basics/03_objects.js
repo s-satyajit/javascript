@@ -4,20 +4,37 @@
 // object literals
 
 
-const mySym = Symbol("key1")
+const mySym = Symbol["key1"]
 
 const JsUser = {
-    name: "Satyajit",
+    name: "Satyajit Samal",
     [mySym]: "myKey1",
     age: 22,
-    location: "Bhubaneswar",
-    email: "satyajit@gmail.com",
-    isLoggedIn: false
+    email: "samalsatyajit668@gmail.com",
+    isLoggedin: false,
+    lastLoggedIn: ["Monday", "Friday"]
 }
+
+
+//change value
+JsUser.email = "satyajit.samal2024@gmail.com"
+
+//freeze
+// Object.freeze(JsUser);
 
 console.log(JsUser["name"])
 console.log(JsUser[mySym])
-console.log(JsUser["age"])
-console.log(JsUser["isLoggedIn"])
+console.log(JsUser["lastLoggedIn"])
+console.log(JsUser["email"])
+console.log(JsUser)
 
+JsUser.greet = function() {
+    console.log("Hello JsUser")
+}
 
+JsUser.greetTwo = function() {
+    console.log(`Hello JsUser, ${this.name}`)
+}
+
+JsUser.greet()
+console.log(JsUser.greetTwo())
