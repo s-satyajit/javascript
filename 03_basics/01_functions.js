@@ -67,17 +67,16 @@ const user = {
 }
 
 function handleObject(anyObject) {
-    console.log(`Username is ${anyObject.username} and the price is ${anyObject.price}`)
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
 }
 
 // handleObject(user)
-
 // handleObject({
 //     username: "Satyajit",
 //     price: 999
 // })
 
-const newArray = [200, 500, 700]
+const newArray = [200, 400, 600]
 
 function returnSecondValue(getArray) {
     return getArray[1]
@@ -85,4 +84,4 @@ function returnSecondValue(getArray) {
 
 // console.log(returnSecondValue(newArray))
 
-console.log(returnSecondValue([8000, 5999, 4000, 2999]))
+console.log(returnSecondValue([5000, 3999, 6999, 9000]))
