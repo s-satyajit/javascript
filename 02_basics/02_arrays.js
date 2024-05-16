@@ -15,7 +15,7 @@ const allNewArray = newArray.flat(Infinity);
 
 // console.log(Array.isArray("Satyajit"))
 // console.log(Array.from("Satyajit"))
-// console.log(Array.from({name: "Satyajit"}))
+// console.log(Array.from({name: "Satyajit"}))         //interesting
 
 let score1 = 100;
 let score2 = 200; 
