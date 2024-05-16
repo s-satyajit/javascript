@@ -53,4 +53,36 @@ function loginUserMessage(username = "sam") {   //a default value is given to th
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+function calculateCartPrice(...num) {       //Rest operator, which takes as much are arguments given
+    return num
+}
+
+// console.log(200, 300, 500)
+
+const user = {
+    username: "Satyajit Samal",
+    price: 199
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and the price is ${anyObject.price}`)
+}
+
+// handleObject(user)
+
+// handleObject({
+//     username: "Satyajit",
+//     price: 999
+// })
+
+const newArray = [200, 500, 700]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(newArray))
+
+console.log(returnSecondValue([8000, 5999, 4000, 2999]))
