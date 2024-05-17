@@ -84,4 +84,4 @@ function returnSecondValue(getArray) {
 
 // console.log(returnSecondValue(newArray))
 
-console.log(returnSecondValue([5000, 3999, 6999, 9000]))
+console.log(returnSecondValue([5000, 3999, 6999, 9000])) 
