@@ -50,4 +50,4 @@ const myArray = [2, 4, 5, 6]
 
 // myArray.forEach(function() {})
 // myArray.forEach(() => ())
-// myArray.forEach(() => {})
+// myArray.forEach(() => { })
