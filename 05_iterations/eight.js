@@ -27,5 +27,9 @@ const shoppingCart = [
     }
 ]
 
-const priceToPay = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
+const priceToPay = shoppingCart.reduce( function(accumulator, item) {
+    return accumulator + item.price
+}, 0)
+
+// const priceToPay = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
 console.log(priceToPay)
