@@ -56,15 +56,17 @@ console.log(tinderUser.hasOwnProperty("name"))
 console.log(regularUser.hasOwnProperty("fullname"))
 
 const course = {
-    courseName: "JavaScript",
-    courseInstructor: "Hitesh Choudhary",
-    coursePrice: 999
+    courseName: 'JavaScript',
+    price: 999,
+    courseInstructor: 'Hitesh'
 }
 
 // console.log(course.courseName)
 
-const {courseName} = course
-console.log(courseName)
+// const {courseInstructor} = course
+// console.log(courseInstructor)
 
 const {courseInstructor: instructor} = course
 console.log(instructor)
+
+
