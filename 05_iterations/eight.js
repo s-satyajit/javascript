@@ -7,7 +7,7 @@ const myNum = [1, 2, 3]
 
 // const myTotal = myNum.reduce( (accumulator, currentValue) => accumulator + currentValue, 0)
 // console.log(myTotal)
-
+ 
 const shoppingCart = [
     {
         itemName: "js course",
