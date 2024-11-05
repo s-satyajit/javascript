@@ -55,7 +55,7 @@ function loginUserMessage(username = "sam") {   //a default value is given to th
 
 // console.log(loginUserMessage())
 
-function calculateCartPrice(...num) {       //Rest operator, which takes as much are arguments given
+function calculateCartPrice(...num) {       //Rest operator, which takes as much as arguments are given
     return num
 }
 
