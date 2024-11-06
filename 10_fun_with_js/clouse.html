@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // function outer()  {
+        //     let username = "chai"
+        //     console.log("outer", secrect)
+        //     function inner() {
+        //         let secrect = "my123"
+        //         console.log("inner", username)
+        //     }
+        //     function innerTwo() {
+        //         console.log("innerTwo", username)
+        //         console.log(secrect)
+        //     }
+        //     inner()
+        //     innerTwo()
+        // }
+        // outer()
+        // console.log("Too outer", username)
+
+
+        function makeFunc() {
+            const name = "Mozilla";
+            function displayName() {
+                console.log(name)
+            }
+            return displayName
+        }
+
+        const myFunc = makeFunc();
+        myFunc()
+
+
+    </script>
+    <script>
+
+        function clickHandler(color) {
+            return function () {
+                document.body.style.background = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onClick = clickHandler("orange")
+        document.getElementById('green').onClick = clikcHandler("green")
+
+
+    </script>
+</body>
+</html>
